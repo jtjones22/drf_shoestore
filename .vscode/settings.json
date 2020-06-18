@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/jonathanjones/Library/Caches/pypoetry/virtualenvs/drf-shoestore-assessment-p7Zgx1UY-py3.8/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.banditEnabled": false
+}
