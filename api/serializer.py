@@ -1,7 +1,8 @@
-from rest_framework.serializers import ModelSerializer, HyperlinkedModelSerializer, SerializerMethodField, StringRelatedField
+from rest_framework.serializers import (
+    ModelSerializer,
+    HyperlinkedModelSerializer
+    )
 from shoe_data.models import Shoe, ShoeColor, ShoeType, Manufacturer
-
-
 
 
 class ShoeColorSerializer(ModelSerializer):
