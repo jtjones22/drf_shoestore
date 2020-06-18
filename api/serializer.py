@@ -1,11 +1,8 @@
-from rest_framework.serializers import ModelSerializer, StringRelatedField
-
+from rest_framework.serializers import ModelSerializer
 from shoe_data.models import Shoe, ShoeColor, ShoeType, Manufacturer
 
 
 class ShoeSerializer(ModelSerializer):
-    manufacturer = StringRelatedField(many=False)
-
     class Meta:
         model = Shoe
         fields = (
