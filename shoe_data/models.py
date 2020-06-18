@@ -48,6 +48,8 @@ class Shoe(models.Model):
     shoe_type = models.ForeignKey(ShoeType, on_delete=models.CASCADE)
     fasten_type = models.CharField(max_length=30)
 
+    def __str__(self):
+        return f"{self.brand} | {self.manufacturer}"
 
 # Fun Fact of Joe's upbringing in the African Savanna.
 # Joe had a pet Rhino named Tank
